@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 ## 说明
 本程序是我们参加[clp2014](http://www.cipsc.org.cn/clp2014/webpage/cn/home_cn.htm)
 的中文切分任务的系统。
 
+=======
+>>>>>>> origin/master
 ## 程序总体介绍
 
 1. 生成训练语料
@@ -35,12 +38,22 @@ Usage: <main class> [options]
     -word2vec
        Word2vec classes filename
 ```
+<<<<<<< HEAD
 * 程序使用的时候参数无顺序要求
 * 各个特征的定义参考论文，忽略word2vec特征
 * 默认情况下会使用字符类型特征
 * 输入文件和输出文件的格式参考后面的例子
 
 ### 以clp2010年的数据为例说明如何使用
+=======
+1. 程序使用的时候参数无顺序要求
+1. 各个特征的定义参考论文，忽略word2vec特征
+1. 默认情况下会使用字符类型特征
+1. 输入文件和输出文件的格式参考后面的例子
+
+### 以clp2010年的数据为例说明如何使用
+语料在corpus.tar.gz压缩包里面，解压后就可以使用。
+>>>>>>> origin/master
 clp2010提供的训练语料在`./corpus/train/2010`里面
 + Training-Labelled.txt是官方提供的训练语料
 + Training-Unlabelled-A.txt是官方提供的A领域的无标语料
@@ -102,9 +115,13 @@ java -cp segment.jar com.nlp.segment.WordSegmenter config/2010_chartype_entropy_
 配置来对`corpus/test/2010Test`里面的语料进行切分，最后输出到`result`文件夹。
 
 ## 致谢
+<<<<<<< HEAD
 [CRF++](https://code.google.com/p/crfpp/)
 [nlpbamboo](https://code.google.com/p/nlpbamboo/)
 [jsuffixarrays](https://github.com/carrotsearch/jsuffixarrays)
 [commons-io](http://commons.apache.org/proper/commons-io/)
 [guava-libraries](https://code.google.com/p/guava-libraries/)
 [jcommander](http://jcommander.org/)
+=======
+[nlpbamboo](https://code.google.com/p/nlpbamboo/)
+>>>>>>> origin/master
